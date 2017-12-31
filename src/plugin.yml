@@ -1,0 +1,24 @@
+name: fr_Florent59_RaceAndClass
+main: fr.Florent59.RaceAndClass.Main
+version: 1.12.1
+description: Attribue des classes et races aux joueurs.
+author: Florent59
+commands:
+ getrace:
+  description: Pour obtenir la race du joueur
+  permission: op
+ setrace:
+  description: Pour modifier la race du joueur
+  permission: op
+ getclass:
+  description: Pour obtenir la classe du joueur
+  permission: op
+ setclass:
+  description: Pour modifier la classe du joueur
+  permission: op
+ setraceclass:
+  description: Pour renseigner sa race et sa classe
+ aiguiser:
+  description: Pour empoisonner son arme
+ soigner:
+  description: Pour donner les premiers soins
