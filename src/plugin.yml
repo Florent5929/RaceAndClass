@@ -18,7 +18,5 @@ commands:
   permission: op
  setraceclass:
   description: Pour renseigner sa race et sa classe
- aiguiser:
-  description: Pour empoisonner son arme
- soigner:
-  description: Pour donner les premiers soins
+ skill:
+  description: Pour obtenir certaines competences selon sa classe

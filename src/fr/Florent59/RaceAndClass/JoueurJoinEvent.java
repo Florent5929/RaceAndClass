@@ -22,6 +22,7 @@ public class JoueurJoinEvent implements Listener {
 		
 		if (Main.joueursRaces.containsKey(player.getName()) && Main.joueursClasses.containsKey(player.getName())){
 			player.removePotionEffect(PotionEffectType.NIGHT_VISION);
+			player.removePotionEffect(PotionEffectType.JUMP);
 			GiveBonus(player, Main.joueursRaces.get(player.getName()).toUpperCase(), Main.joueursClasses.get(player.getName()).toUpperCase());
 		}
 		
@@ -37,8 +38,6 @@ public class JoueurJoinEvent implements Listener {
 		}
 		
 	}
-	
-	
 	
 	public static void GiveBonus(Player player, String race, String classe){
 		
